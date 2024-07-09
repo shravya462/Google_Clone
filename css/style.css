@@ -1,0 +1,185 @@
+    html {
+        background-color: #0c1016;
+        font-family: cursive;
+    }
+    
+    body {
+        margin: 0px;
+    }
+    
+    a {
+        color: rgb(65, 65, 65);
+    }
+    
+    nav {
+        display: inline-block;
+        text-align: right;
+        width: 70px;
+        height: 100%;
+        background: #21262e;
+        position: fixed;
+        right: 0%;
+        top: 0%;
+        overflow: auto;
+    }
+    
+    nav a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    nav a:hover:not(.active) {
+        background-color: #46a29e;
+        color: white;
+    }
+    
+    button {
+        background-color: #21262e;
+        color: white;
+        font-family: cursive;
+    }
+    
+    button:hover {
+        background: #46a29e;
+        color: white;
+    }
+    /* .apps {
+        display: block;
+        width: 40px;
+        cursor: pointer;
+    }*/
+    
+    .main {
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        transform: translateY(-50%);
+        z-index: 2;
+    }
+    
+    .title {
+        position: absolute;
+        top: 13%;
+        left: 20%;
+        font-size: 90px;
+        margin: 0;
+        padding: 0;
+        color: #66fcf0;
+    }
+    
+    .search {
+        border: 2px solid grey;
+        border-radius: 8px;
+        /*margin: auto;
+        max-width: 300px;*/
+        top: 355px;
+        left: 575px;
+        height: 30px;
+        width: 300px;
+    }
+    
+    .button1 {
+        border: none;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        background-color: #46a29e;
+        color: #262220;
+        font-family: cursive;
+    }
+    
+    .button1:hover {
+        background: #46a29e;
+        color: white;
+    }
+    
+    .button2 {
+        border: none;
+        color: #262220;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        background-color: #46a29e;
+        font-family: cursive;
+    }
+    
+    .button2 a {
+        text-decoration: none;
+        color: #262220
+    }
+    
+    .button2:hover {
+        background: #46a29e;
+        color: white;
+    }
+    
+    .button3 {
+        padding: 10px;
+        border-radius: 8px;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        background-color: #46a29e;
+        color: #262220;
+        font-family: cursive;
+    }
+    
+    .button3:hover {
+        background: #46a29e;
+        color: white;
+    }
+    
+    .lang p {
+        color: white;
+    }
+    
+    .lang p a {
+        text-decoration: none;
+        margin-right: 10px;
+        color: white;
+    }
+    
+    .lang p a:hover {
+        text-decoration: underline;
+    }
+    
+    .foot2 {
+        display: inline-block;
+        background: #21262e;
+        position: fixed;
+        bottom: 0%;
+        left: 0%;
+        width: 100%;
+    }
+    
+    .foot2 p a {
+        display: inline-block;
+        margin-right: 10px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .foot2 p a:hover {
+        text-decoration: underline;
+    }
+    
+    .foot1 {
+        display: inline-block;
+        background: #21262e;
+        position: fixed;
+        bottom: 5%;
+        left: 0%;
+        width: 100%;
+        color: white;
+    }
